@@ -13,7 +13,7 @@
 4. Laisser les paramètres par défaut (site statique).
 5. Cliquer sur **Deploy**.
 
-Le projet est prêt pour ce flux avec une configuration Vercel minimale (`cleanUrls`) et `index.html` à la racine.
+Le projet est prêt pour ce flux sans configuration Vercel spécifique : `index.html` est à la racine.
 
 ## Option B : via CLI Vercel
 
@@ -33,7 +33,7 @@ npx vercel --prod
 
 ## Dépannage
 
-- Si vous voyez l'erreur `Cannot read properties of undefined (reading 'fsPath')`, vérifier que `vercel.json` reste minimal et ne contient pas de règle `rewrites` inutile vers `/index.html`.
+- Si vous voyez l'erreur `Cannot read properties of undefined (reading 'fsPath')`, supprimer `vercel.json` et relancer un déploiement (ce projet statique n'en a pas besoin).
 - Si le build échoue après un changement de config, relancer un déploiement propre depuis le dashboard Vercel (nouveau build sans cache).
 
 ## Limitation actuelle
