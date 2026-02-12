@@ -31,6 +31,11 @@ npx vercel --prod
   - fin de partie si mauvaise réponse,
   - fin de partie en quittant l'onglet (anti-triche démo).
 
+## Dépannage
+
+- Si vous voyez l'erreur `Cannot read properties of undefined (reading 'fsPath')`, vérifier que `vercel.json` reste minimal et ne contient pas de règle `rewrites` inutile vers `/index.html`.
+- Si le build échoue après un changement de config, relancer un déploiement propre depuis le dashboard Vercel (nouveau build sans cache).
+
 ## Limitation actuelle
 
 Cette version est un prototype frontend pour test rapide. La logique anti-triche finale doit être validée côté serveur dans la prochaine étape backend.

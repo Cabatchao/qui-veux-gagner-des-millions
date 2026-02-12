@@ -24,7 +24,7 @@
 3. **Expiration des points ?**  
    Les points expirent à chaque changement de boutique (1 fois/mois).
 4. **Conversion points → cadeaux ?**  
-   Clarifié dans les exigences : chaque cadeau a un coût fixe en points, visible en boutique.
+   Chaque cadeau affiché en boutique possède un coût fixe en points.
 
 ## C. Comptes et sécurité
 
@@ -44,7 +44,7 @@
 2. **Tolérance latence ?**  
    La plus courte possible.
 3. **Timer contrôlé par serveur ?**  
-   Oui (décision produit recommandée et retenue).
+   Oui (décision produit retenue).
 4. **Journalisation comportements suspects ?**  
    Oui : 1 avertissement puis bannissement à vie en cas de récidive.
 
