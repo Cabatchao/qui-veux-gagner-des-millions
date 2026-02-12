@@ -13,7 +13,7 @@
 4. Laisser les paramètres par défaut (site statique).
 5. Cliquer sur **Deploy**.
 
-Le projet est prêt pour ce flux grâce à `vercel.json` et `index.html`.
+Le projet est prêt pour ce flux avec une configuration Vercel minimale (`cleanUrls`) et `index.html` à la racine.
 
 ## Option B : via CLI Vercel
 
