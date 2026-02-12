@@ -9,7 +9,7 @@
 3. **Paliers de sécurité ?**  
    Oui, les mêmes paliers que l'émission d'origine.
 4. **Comportement des 3 jokers ?**  
-   Voir proposition validable dans `docs/requirements.md` (1 gratuit/jour + 2 jokers payants).
+   50:50, sécurisation des gains, et changement de question (détaillés dans `docs/requirements.md`).
 5. **Joker gratuit : fréquence ?**  
    1 fois par jour.
 6. **Jokers payants : achat ?**  

@@ -12,12 +12,13 @@
 
 Le jeu propose 3 jokers :
 
-1. **50:50** (proposition)
+1. **50:50**
    - Supprime 2 mauvaises réponses.
-2. **Question au public** (proposition)
-   - Affiche une répartition simulée des réponses.
-3. **Appel à un ami / indice expert** (proposition)
-   - Donne un indice contextualisé.
+2. **Sécurisation des gains**
+   - Permet de sécuriser les gains en cours, même sans avoir atteint un palier.
+   - En cas de mauvaise réponse ensuite, le joueur est éliminé mais conserve les gains sécurisés.
+3. **Changement de question**
+   - Remplace la question en cours par une nouvelle question de même niveau de difficulté.
 
 Règles économiques des jokers :
 - **1 joker gratuit par jour** (non cumulable).

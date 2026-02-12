@@ -18,9 +18,8 @@ Le projet est prêt pour ce flux grâce à `vercel.json` et `index.html`.
 ## Option B : via CLI Vercel
 
 ```bash
-npm i -g vercel
-vercel login
-vercel --prod
+npx vercel login
+npx vercel --prod
 ```
 
 ## Vérification rapide après déploiement
